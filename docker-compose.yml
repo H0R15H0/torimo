@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - '8080:8080'
+    volumes:
+      - './frontend:/app'
+    command: /bin/sh -c "npm run serve"
+    depends_on:
+        - db
+        - api
+    # env_file:
+    #   - ./frontend/.env
+    tty: true
+    stdin_open: true
+
+  db:
+    image: postgres
+    ports:
+      - '5432:5432'
+    environment:
+      - 'POSTGRES_PASSWORD=postgres'
+    volumes:
+      - ./api/tmp/db:/var/lib/postgresql/data
+
+  api:
+    build:
+      context: ./api
+    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    depends_on:
+      - db
+    volumes:
+      - './api:/myapp'
+    environment:
+      - 'POSTGRES_PASSWORD=postgres'
+    ports:
+      - '3000:3000'
