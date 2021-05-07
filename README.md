@@ -1,5 +1,5 @@
 # torimo
-https://www.awesomescreenshot.com/video/3656255?key=91b3d480d56377dd67564274dcdecb40
+[![trimo]()](https://www.awesomescreenshot.com/video/3656255?key=91b3d480d56377dd67564274dcdecb40)
 「旅の選択肢を増や」したい「旅先に迷っている人」向けの「トリモ/Trimo」というプロダクトは、「他の人の旅の記録を参考にできるサービス」です。これは「自分の旅を記録し、それを他の人が参考」にでき、「旅行雑誌・旅行アプリ」とは違って「旅の記録を共有する機能」が備わっています。
 https://trimo.netlify.app/
 
