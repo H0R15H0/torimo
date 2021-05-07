@@ -1,5 +1,5 @@
 # torimo
-<img src="https://user-images.githubusercontent.com/51479912/117399057-9d7b4e80-af3a-11eb-94dd-1bda31d43bab.png" height="100%">
+<img src="https://user-images.githubusercontent.com/51479912/117399057-9d7b4e80-af3a-11eb-94dd-1bda31d43bab.png" height="50%">
 「旅の選択肢を増や」したい「旅先に迷っている人」向けの「トリモ/Trimo」というプロダクトは、「他の人の旅の記録を参考にできるサービス」です。これは「自分の旅を記録し、それを他の人が参考」にでき、「旅行雑誌・旅行アプリ」とは違って「旅の記録を共有する機能」が備わっています。
 https://trimo.netlify.app/
 
